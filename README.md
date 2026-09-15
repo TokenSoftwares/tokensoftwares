@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/holographic-header.svg" width="100%" alt="Kareem Hijazi — Software Engineer, Full Stack, AI" />
+  <img src="./holographic-header.svg" width="100%" alt="Kareem Hijazi — Software Engineer, Full Stack, AI" />
 </div>
 
 <div align="center">
