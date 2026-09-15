@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./holographic-header.svg" width="100%" alt="Kareem Hijazi — Software Engineer, Full Stack, AI" />
+  <img src="./assets/holographic-header.svg" width="100%" alt="Karim Hijazi — Software Engineer, Full Stack, AI" />
 </div>
 
 <div align="center">
@@ -9,7 +9,7 @@
 </div>
 
 ```console
-kareem@tokensoftwares:~$ whoami
+karim@tokensoftwares:~$ whoami
 Software engineer focused on full-stack products, backend systems, and intelligent interfaces.
 ```
 
@@ -42,25 +42,14 @@ I like building software that connects a clean interface to solid engineering un
   </a>
 </div>
 
-### `04 // Activity signal`
+### `04 // Engineering signal`
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=tokensoftwares&show_icons=true&hide_border=true&bg_color=00000000&title_color=67E8F9&text_color=C7D2FE&icon_color=C084FC&ring_color=67E8F9" />
-    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tokensoftwares&show_icons=true&hide_border=true&bg_color=00000000&title_color=0891B2&text_color=334155&icon_color=7C3AED&ring_color=0891B2" alt="Kareem's GitHub statistics" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=tokensoftwares&layout=compact&hide_border=true&bg_color=00000000&title_color=67E8F9&text_color=C7D2FE" />
-    <img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tokensoftwares&layout=compact&hide_border=true&bg_color=00000000&title_color=0891B2&text_color=334155" alt="Most-used languages" />
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=tokensoftwares&bg_color=00000000&color=C7D2FE&line=67E8F9&point=C084FC&area=true&area_color=7C3AED&hide_border=true&custom_title=Contribution%20Signal" />
-    <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=tokensoftwares&bg_color=ffffff&color=334155&line=0891B2&point=7C3AED&area=true&area_color=C4B5FD&hide_border=true&custom_title=Contribution%20Signal" alt="GitHub contribution activity graph" />
-  </picture>
-</div>
+| Focus | What I build with it |
+|:---|:---|
+| **Backend engineering** | Java, Spring Boot, REST APIs, authentication, and PostgreSQL |
+| **Full-stack products** | Angular, TypeScript, responsive interfaces, and connected workflows |
+| **Computer vision** | Python, OpenCV, MediaPipe, gesture detection, and real-time control |
+| **Interactive systems** | C++, Rust, Unreal Engine, and performance-minded development |
 
 ### `05 // Connect`
 
