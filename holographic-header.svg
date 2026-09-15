@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Karim Hijazi — Software Engineer</title>
+  <desc id="desc">Animated holographic developer banner in cyan, violet, and pink.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.46" stop-color="#090d24"/>
+      <stop offset="1" stop-color="#06040f"/>
+    </linearGradient>
+
+    <linearGradient id="holo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58f6ff"/>
+      <stop offset="0.32" stop-color="#8b5cf6"/>
+      <stop offset="0.66" stop-color="#ec4899"/>
+      <stop offset="1" stop-color="#58f6ff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.35 0;0.35 0;-0.35 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="orbCyan">
+      <stop offset="0" stop-color="#27e7ff" stop-opacity="0.27"/>
+      <stop offset="1" stop-color="#27e7ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orbPink">
+      <stop offset="0" stop-color="#d946ef" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#d946ef" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#6ee7f9" stroke-opacity="0.065" stroke-width="1"/>
+    </pattern>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="tinyGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="frameClip">
+      <rect x="26" y="26" width="1148" height="368" rx="28"/>
+    </clipPath>
+
+    <style>
+      .micro { font: 600 14px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; letter-spacing: 4px; }
+      .name { font: 800 76px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 9px; }
+      .role { font: 500 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; letter-spacing: 4px; }
+      .corner { font: 500 11px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; letter-spacing: 2px; }
+
+      .scan { animation: scan 6s linear infinite; }
+      .ring-a { transform-origin: 600px 210px; animation: spin 24s linear infinite; }
+      .ring-b { transform-origin: 600px 210px; animation: spinBack 17s linear infinite; }
+      .pulse { animation: pulse 3s ease-in-out infinite; }
+      .blink { animation: blink 1.05s steps(1) infinite; }
+      .float-a { animation: floatA 7s ease-in-out infinite; }
+      .float-b { animation: floatB 9s ease-in-out infinite; }
+
+      @keyframes scan { from { transform: translateY(-55px); } to { transform: translateY(475px); } }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes spinBack { to { transform: rotate(-360deg); } }
+      @keyframes pulse { 0%, 100% { opacity: .48; } 50% { opacity: 1; } }
+      @keyframes blink { 0%, 52% { opacity: 1; } 53%, 100% { opacity: 0; } }
+      @keyframes floatA { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(18px, -12px); } }
+      @keyframes floatB { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-16px, 14px); } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" rx="34" fill="url(#background)"/>
+
+  <g clip-path="url(#frameClip)">
+    <circle class="float-a" cx="176" cy="85" r="240" fill="url(#orbCyan)"/>
+    <circle class="float-b" cx="1015" cy="330" r="270" fill="url(#orbPink)"/>
+    <rect x="26" y="26" width="1148" height="368" fill="url(#grid)"/>
+
+    <g opacity="0.32">
+      <ellipse class="ring-a" cx="600" cy="210" rx="370" ry="132" fill="none" stroke="url(#holo)" stroke-width="1.2" stroke-dasharray="3 14"/>
+      <ellipse class="ring-b" cx="600" cy="210" rx="438" ry="166" fill="none" stroke="url(#holo)" stroke-width="0.8" stroke-dasharray="34 18 2 18"/>
+    </g>
+
+    <g fill="#8ff8ff" filter="url(#tinyGlow)">
+      <circle class="pulse" cx="114" cy="104" r="2.5"/>
+      <circle class="pulse" cx="1080" cy="104" r="2.5" style="animation-delay:.7s"/>
+      <circle class="pulse" cx="1050" cy="316" r="2" style="animation-delay:1.2s"/>
+      <circle class="pulse" cx="144" cy="319" r="2" style="animation-delay:1.8s"/>
+      <circle class="pulse" cx="297" cy="71" r="1.5" style="animation-delay:2.2s"/>
+      <circle class="pulse" cx="914" cy="351" r="1.5" style="animation-delay:.35s"/>
+    </g>
+
+    <g class="scan" opacity="0.32">
+      <rect x="26" y="0" width="1148" height="2" fill="url(#holo)" filter="url(#softGlow)"/>
+      <rect x="26" y="2" width="1148" height="34" fill="url(#holo)" opacity="0.055"/>
+    </g>
+  </g>
+
+  <rect x="26" y="26" width="1148" height="368" rx="28" fill="none" stroke="url(#holo)" stroke-opacity="0.58" stroke-width="1.5"/>
+  <path d="M62 56h80M62 56v42M1138 56h-80M1138 56v42M62 364h80M62 364v-42M1138 364h-80M1138 364v-42" fill="none" stroke="url(#holo)" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+
+  <text x="600" y="116" text-anchor="middle" class="micro" fill="#76ecf6" opacity="0.9">&gt; TOKENSOFTWARES / PROFILE</text>
+
+  <text x="600" y="222" text-anchor="middle" class="name" fill="url(#holo)" filter="url(#softGlow)">KARIM</text>
+  <text x="600" y="278" text-anchor="middle" class="name" font-size="44" fill="url(#holo)" opacity="0.94">HIJAZI</text>
+
+  <g text-anchor="middle">
+    <text x="594" y="328" class="role" fill="#d8e6ff">SOFTWARE ENGINEER · FULL STACK · AI</text>
+    <rect class="blink" x="903" y="310" width="9" height="21" rx="1.5" fill="#69f4ff" filter="url(#tinyGlow)"/>
+  </g>
+
+  <text x="64" y="378" class="corner" fill="#86e9f3" opacity="0.56">SYSTEM: ONLINE</text>
+  <text x="1136" y="378" text-anchor="end" class="corner" fill="#dd8cff" opacity="0.56">BUILDING // 2026</text>
+</svg>
