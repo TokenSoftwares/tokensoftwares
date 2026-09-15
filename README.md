@@ -25,7 +25,7 @@ I like building software that connects a clean interface to solid engineering un
 ### `02 // Build matrix`
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,angular,ts,js,python,postgres,docker,git,github,postman,vscode,cpp,swift,rust,unreal&perline=8&theme=dark" alt="Java, Spring, Angular, TypeScript, JavaScript, Python, PostgreSQL, Docker, Git, GitHub, Postman, VS Code, C++, Swift, Rust, and Unreal Engine" />
+  <img src="https://skillicons.dev/icons?i=java,spring,angular,ts,js,python,postgres,git,github,postman,vscode,cpp,swift,unreal&perline=7&theme=dark" alt="Tech Stack" />
 </div>
 
 ### `03 // Selected work`
@@ -49,7 +49,7 @@ I like building software that connects a clean interface to solid engineering un
 | **Backend engineering** | Java, Spring Boot, REST APIs, authentication, and PostgreSQL |
 | **Full-stack products** | Angular, TypeScript, responsive interfaces, and connected workflows |
 | **Computer vision** | Python, OpenCV, MediaPipe, gesture detection, and real-time control |
-| **Interactive systems** | C++, Rust, Unreal Engine, and performance-minded development |
+| **Interactive systems** | C++, Unreal Engine, and performance-minded development |
 
 ### `05 // Connect`
 
